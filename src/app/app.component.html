@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="box">
+    <panel title="Filmes">
+      <table>
+        <tr>
+          <th>Título</th>
+          <th>Nota</th>
+        </tr>
+        <tr *ngFor="let movie of movies">
+          <td>{{ movie.title }}</td>
+          <td>
+            <app-rating [(rating)]="movie.rating"> </app-rating>
+          </td>
+        </tr>
+      </table>
+    </panel>
+    <panel title="Séries">
+      <table>
+        <tr>
+          <th>Título</th>
+          <th>Nota</th>
+        </tr>
+        <tr *ngFor="let serie of series">
+          <td>{{ serie.title }}</td>
+          <td>
+            <app-rating [(rating)]="serie.rating"> </app-rating>
+          </td>
+        </tr>
+      </table>
+    </panel>
+  </div>
+</div>

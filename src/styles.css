@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Arial;
+  color: rgb(231, 231, 231);
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  border-top: 1px solid rgb(161, 161, 161);
+  padding: 4px ;
+}
+
+.rating {
+  color: rgb(211, 191, 19);
+  cursor: pointer;
+}
+
+html {
+  background-color: rgb(93, 93, 93);
+  display: flex;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: center;
+  background: rgb(59, 59, 59);
+  border-radius: 20px;
+  align-items: center;
+}
